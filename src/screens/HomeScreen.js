@@ -5,12 +5,28 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View>
       <Button
-        onPress={() => navigation.navigate('Components')}
         title='Go to Component Demo'
+        onPress={() => navigation.navigate('Components')}
       />
       <Button
-        onPress={() => navigation.navigate('List')}
         title='Go to List Demo'
+        onPress={() => navigation.navigate('List')}
+      />
+      <Button
+        title='Go to Image Screen Demo'
+        onPress={() => navigation.navigate('Image')}
+      />
+      <Button
+        title='Go to Counter Demo'
+        onPress={() => navigation.navigate('Counter')}
+      />
+      <Button
+        title='Go to Add Color Demo'
+        onPress={() => navigation.navigate('Color')}
+      />
+      <Button
+        title='Go to Color Square Demo'
+        onPress={() => navigation.navigate('Square')}
       />
     </View>
   );
